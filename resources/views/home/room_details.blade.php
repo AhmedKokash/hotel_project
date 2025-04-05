@@ -61,7 +61,7 @@
                        <p style="padding: 12px">{{$room->description}}</p>
                        <h4> Free Wifi :{{$room->wifi}}</h4>
                        <h4 style="padding: 12px"> Room Type :{{$room->room_type}}</h4>
-                       <h3 style="padding: 12px"> Price :{{$room->price}}</h3>
+                       <h3 style="padding: 12px"> Price :{{$room->price}}$</h3>
 
 
                     </div>

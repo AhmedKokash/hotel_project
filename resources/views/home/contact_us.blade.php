@@ -19,18 +19,7 @@
       </header>
       <!-- end header inner -->
       <!-- end header -->
-      <!-- banner -->
-      @include('home.slider')
-      <!-- end banner -->
-      <!-- about -->
-      @include('home.about')
-      <!-- end about -->
-      <!-- our_room -->
-      @include('home.room')
-      <!-- end our_room -->
-      <!-- gallery -->
-      @include('home.galary')
-      <!-- end gallery -->
+      
       <!-- blog -->
 
       <!-- end blog -->
@@ -42,17 +31,7 @@
       <!-- end footer -->
       <!-- Javascript files-->
 
-      <script type="text/javascript">
-        $(window).on("scroll", function() {
-          sessionStorage.setItem("scrollTop", $(this).scrollTop());
-        });
       
-        $(document).ready(function() {
-          if (sessionStorage.getItem("scrollTop") !== null) {
-            $(window).scrollTop(parseInt(sessionStorage.getItem("scrollTop")));
-          }
-        });
-      </script>
       
       
       

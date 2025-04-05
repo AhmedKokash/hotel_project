@@ -6,7 +6,8 @@ use Illuminate\Http\Request;
 
 use App\Models\Room;
 use App\Models\Booking;
-
+use App\Models\Contact;
+use App\Models\Gallary;
 
 class HomeController extends Controller
 {
@@ -57,6 +58,47 @@ class HomeController extends Controller
         return redirect()->back()->with('message','Room Booked  Successfully');
 
         }
+
+
+
+
     }
+
+    public function contact(Request $request){
+
+        $contact= new Contact;
+        $contact->name= $request->name; 
+        $contact->email= $request->email;   
+        $contact->phone= $request->phone;
+        $contact->message= $request->message;
+        $contact->save();
+        return redirect()->back()->with('message','Message Sent Successfully');
+        
+
+
+        }
+
+        public function our_rooms(){
+            $room= Room::all();
+            return view('home.our_rooms',compact('room'));
+
+        }
+
+        public function hotel_gallary(){
+            $gallary= Gallary::all();
+            return view('home.hotel_gallary',compact('gallary'));
+
+        }
+
+        public function contact_us(){
+
+            return view('home.contact_us');
+
+        }
+
+
+
+
+
 
 }

@@ -14,7 +14,7 @@
                      <h3>Menu Link</h3>
                      <ul class="link_menu">
                         <li class="active"><a href="#">Home</a></li>
-                        <li><a href="about.html"> about</a></li>
+                        
                         <li><a href="room.html">Our Room</a></li>
                         <li><a href="gallery.html">Gallery</a></li>
                         <li><a href="blog.html">Blog</a></li>

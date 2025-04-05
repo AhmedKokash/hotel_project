@@ -43,4 +43,27 @@ Route::post('/upload_gallary', [AdminController::class, 'upload_gallary']);
 
 Route::get('/delete_gallary/{id}', [AdminController::class, 'delete_gallary']);
 
+Route::post('/contact', [HomeController::class, 'contact']);
+
+Route::get('/all_messages', [AdminController::class, 'all_messages']);
+
+Route::get('/send_mail/{id}', [AdminController::class, 'send_mail']);
+
+Route::post('/mail/{id}', [AdminController::class, 'mail']);
+
+Route::get('/our_rooms', [HomeController::class, 'our_rooms']);
+
+Route::get('/hotel_gallary', [HomeController::class, 'hotel_gallary']);
+
+Route::get('/contact_us', [HomeController::class, 'contact_us']);
+
+
+
+
+ 
+
+
+
+
+
 
