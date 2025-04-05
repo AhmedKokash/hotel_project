@@ -240,5 +240,5 @@ $isBooked = Booking::where('room_id',$id)
 
 ## Contact 📧
 
-**Project Maintainer**: [Your Name]  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/yourprofile)
+**Project Maintainer**: [Dev.Ahmed]  
+[![LinkedIn](https://www.linkedin.com/in/ahmedkokash-dev-ahmed/)
