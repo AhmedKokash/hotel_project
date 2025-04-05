@@ -27,9 +27,8 @@ A comprehensive Laravel-based web application for managing hotel room bookings, 
 ## Technologies Stack 🛠️
 
 - **Backend**
-  - Laravel 10.x
+  - Laravel 
   - Laravel Jetstream (Authentication)
-  - Laravel Sanctum (API Tokens)
 - **Frontend**
   - Blade Templates
   - Tailwind CSS
