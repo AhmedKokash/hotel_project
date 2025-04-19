@@ -6,39 +6,39 @@ A comprehensive Laravel-based web application for managing hotel room bookings, 
 
 ### Key Features ✨
 
-- **User Management**
-  - Role-based authentication (Admin/User)
-  - Profile management with 2FA support
-- **Room Management**
-  - CRUD operations for rooms
-  - Image upload capabilities
-  - Detailed room descriptions with amenities
-- **Booking System**
-  - Date range validation
-  - Booking status management (Approve/Reject)
-  - Conflict checking for overlapping reservations
-- **Gallery Management**
-  - Image upload and deletion
-  - Public gallery display
-- **Responsive UI**
-  - Mobile-friendly interface
-  - Admin dashboard with analytics
+-   **User Management**
+    -   Role-based authentication (Admin/User)
+    -   Profile management with 2FA support
+-   **Room Management**
+    -   CRUD operations for rooms
+    -   Image upload capabilities
+    -   Detailed room descriptions with amenities
+-   **Booking System**
+    -   Date range validation
+    -   Booking status management (Approve/Reject)
+    -   Conflict checking for overlapping reservations
+-   **Gallery Management**
+    -   Image upload and deletion
+    -   Public gallery display
+-   **Responsive UI**
+    -   Mobile-friendly interface
+    -   Admin dashboard with analytics
 
 ## Technologies Stack 🛠️
 
-- **Backend**
-  - Laravel 10.x
-  - Laravel Jetstream (Authentication)
-  - Laravel Sanctum (API Tokens)
-- **Frontend**
-  - Blade Templates
-  - Tailwind CSS
-- **Database**
-  - MySQL
-  - Eloquent ORM
-- **Other**
-  - Mermaid.js (Documentation diagrams)
-  - Intervention Image (Image handling)
+-   **Backend**
+    -   Laravel 10.x
+    -   Laravel Jetstream (Authentication)
+    -   Laravel Sanctum (API Tokens)
+-   **Frontend**
+    -   Blade Templates
+    -   Tailwind CSS
+-   **Database**
+    -   MySQL
+    -   Eloquent ORM
+-   **Other**
+    -   Mermaid.js (Documentation diagrams)
+    -   Intervention Image (Image handling)
 
 ## Installation 💻
 
@@ -238,8 +238,7 @@ $isBooked = Booking::where('room_id',$id)
     ->exists();
 ```
 
-
 ## Contact 📧
 
-**Project Maintainer**: [Your Name]  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/yourprofile)
+**Project Maintainer**: [Dev.Ahmed]  
+[LinkedIn](https://www.linkedin.com/in/ahmedkokash-dev-ahmed/)
